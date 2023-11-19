@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Signika', sans-serif;
+}
+
+/* NAVBAR */
+#navbar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar .navbar-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar .navbar-container .logo {
+    height: 40px;
+    width: auto;
+}
+
+#navbar .navbar-container ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+#navbar .navbar-container ul li {
+    padding: 0 20px;
+}
+
+#navbar .navbar-container ul li:hover {
+    cursor: pointer;
+    color: #1DB954;
+    transition: all 400ms;
+}
+
+#navbar .navbar-container ul li:nth-child(4) {
+    border-left: 1px solid white;
+}
+
+/* SHOW CASE  */
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url("./img/showcase.webp") center center/cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: color;
+}
+
+#showcase .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase .showcase-container h2 {
+    font-size: 5rem;
+}
+
+#showcase .showcase-container p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+/* BOTÃO PRIMÁRIO */
+.button-primary {
+    background: #1DB954;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+/* FOOTER */
+#footer {
+    background: black;
+    color: white;
+    padding: 80px 0;
+}
+
+#footer .footer-content {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu {
+    margin: 0 60px;
+    list-style: none;
+}
+
+#footer .footer-content .footer-menu:hover {
+    cursor: pointer;
+    color: #1DB954;
+    transition: all 400ms;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+    margin: 20px 0;
+}
+
+#footer .footer-content .footer-menu p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+
+
+/* FOOTER SOCIAL */
+.social {
+    display: flex;
+}
+
+.social i {
+    margin: 20px;
+    font-size: 1.7rem;
+}
+
+/* FOOTER FINAL */
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+    color: #919496;
+    font-size: 0.75rem;
+    padding: 35px;
+}
+
+.footer-info .footer-info-itens {
+    display: flex;
+    list-style: none;
+}
+
+.footer-info .footer-info-itens .footer-info-item {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #919496;
+    font-size: 0.75rem;
+}
+.footer-info .rightsspotify .country {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.footer-info .rightsspotify .country .bandeirabrasil {
+    height: 20px;
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
